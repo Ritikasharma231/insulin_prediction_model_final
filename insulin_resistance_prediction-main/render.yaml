@@ -3,6 +3,7 @@ services:
     name: insulin-resistance-api
     env: python
     plan: free
+    pythonVersion: "3.11"
     buildCommand: "cd insulin_resistance_prediction-main && pip install --upgrade pip && pip install -r requirements.txt"
     startCommand: "cd insulin_resistance_prediction-main && uvicorn api.final_api:app --host 0.0.0.0 --port $PORT"
     envVars:
