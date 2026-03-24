@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+joblib
+numpy
+shap
+requests
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+groq
+python-dotenv
+pydantic==2.10.5
+lightgbm
+scikit-learn
+mangum
